@@ -37,7 +37,7 @@
             class="w-8 h-8 border-2 border-yellow-500 border-t-transparent rounded-full animate-spin"
           ></div>
           <p class="text-neutral-500 text-sm animate-pulse">
-            Fetching gold rates...
+            Altın fiyatları alınıyor...
           </p>
         </div>
 
