@@ -43,14 +43,14 @@
 
         <div v-else-if="error" class="text-center py-8 space-y-4">
           <div class="text-red-400 text-lg font-medium">
-            Unable to load prices
+            Fiyatlar yüklenemedi.
           </div>
           <p class="text-neutral-500 text-sm px-4">{{ error }}</p>
           <button
             @click="fetchPrices"
             class="px-4 py-2 bg-neutral-700 hover:bg-neutral-600 rounded-lg text-sm transition-colors"
           >
-            Try Again
+            Tekrar deneyin
           </button>
         </div>
 
